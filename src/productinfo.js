@@ -1,7 +1,8 @@
 import "./styles.css";
-import { Route } from "react-router-dom";
+import { Route, useParams } from "react-router-dom";
 
 export default function Products({ currentProduct }) {
+  let { id } = useParams();
   const Button = () => (
     <div>
       <Route
@@ -23,6 +24,7 @@ export default function Products({ currentProduct }) {
     <div className="App">
       Product Info : {currentProduct ? currentProduct.name : ""}
       {Button()}
+      <div>Current route param id : {id}</div>
     </div>
   );
 }
