@@ -33,3 +33,9 @@ button:hover {
 button:active {
   transform: translatey(0px);
 }
+
+.AppFooter {
+  color: hotpink;
+  display: grid;
+  place-items: center;
+}

@@ -25,6 +25,18 @@ export default function App() {
           </Route>
         </Switch>
       </BrowserRouter>
+
+      <footer className="AppFooter">
+        <a href="https://github.com/shriramcs/react-products-view">
+          <img
+            alt="github"
+            width="30"
+            height="30"
+            src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
+          />
+        </a>
+        <span className="Credits">Proudly hosted on Netlify</span>
+      </footer>
     </div>
   );
 }
