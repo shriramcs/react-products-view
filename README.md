@@ -1,4 +1,7 @@
 # react-products-view
+
 Created with CodeSandbox
-## Demo
-[Live Demo](https://react-products-view.netlify.app/)
+
+## Live Demo
+
+[Link](https://react-products-view.netlify.app/) Proudly hosted on [Netlify](https://app.netlify.com/)
